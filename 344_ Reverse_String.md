@@ -52,5 +52,5 @@ class Solution:
             lst[start], lst[end] = lst[end], lst[start]
             start += 1
             end -= 1
-        return ''.join(lst)        
+        return ''.join(lst)        #将list转成str.
 ```

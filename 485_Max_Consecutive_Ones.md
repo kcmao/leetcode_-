@@ -27,7 +27,6 @@
 ``` 
 一轮遍历，用cnt计数，遇到1 cnt++，遇到0，将cnt重置为0，并随时判断cnt是否为最大，如果max<cnt，将cnt复制给max.
 
-
 ```
 
 > 我的解答
@@ -44,6 +43,7 @@ class Solution:
         for i in nums:
             if i == 1:
                 cnt += 1
+                #max_cnt = min(max_cnt, cnt) 同样效果
                 if max_cnt < cnt:
                     max_cnt = cnt
             else:
