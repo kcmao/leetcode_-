@@ -1,4 +1,4 @@
-# 144.  二叉树的层序遍历 
+# 144.  二叉树的层次遍历 
 **<font color=red>难度: 中等</font>**
 ## 刷题内容
 
@@ -35,8 +35,8 @@ Input: [1,null,2,3]
  
 ```
 
-> 1 递归
-* beats 40%   56ms
+> 1 有问题，自己写的
+
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -72,14 +72,17 @@ class Solution:
 
 写的不对，但是我又不会改。不知道如何控制深度去控制添加[]. 
 
-> 迭代解法
+> 递归解法 看了别人的
+```
+用level控制层级，两层递归的执行执行顺序一定要搞懂。
+```
+
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
-from collections import deque
 class Solution:
     def levelOrder(self, root):
         """
@@ -94,7 +97,7 @@ class Solution:
             res[level-1].append(node.val)
             dfs(node.left, level+1, res)
             dfs(node.right, level+1, res)
-            
+
         res = []
         dfs(root, 1, res)
         return res

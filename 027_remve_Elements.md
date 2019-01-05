@@ -3,7 +3,7 @@
 ## 题目
 
 > 原题链接
-* https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/
+* https://leetcode-cn.com/problems/remove-element/
 
 > 内容描述
 
