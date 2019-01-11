@@ -1,4 +1,4 @@
-# 104.   路径和
+# 112.   路径和
 **<font color=red>难度: 简单</font>**
 ## 刷题内容
 
@@ -33,6 +33,7 @@
 递归进入树，保存一个零时和tmp_sum,每进入一次递归，做三个分支的判断，关键时如何找到递归基即退出递归的方式，满足两个其一
 1.node不存在，不可或缺，
 2.没有了左右孩子时再判断sum是否满足。
+    有左右孩子时如何进入，and和or的使用
 网上更好的方式时递减的思路，sum-node.val，见思路二
 ```
 
@@ -64,7 +65,7 @@ class Solution:
             if not node:                  
                 return False
             tmp_sum += node.val
-            if node.left or node.right:
+            if node.left or node.right: #or运算符如果前面满足就执行先前面，后面就不管，如果前面不满足就执行后面表达式
                 return preOrder(node.left, tmp_sum, sum) or preOrder(node.right, tmp_sum, sum)
             else:
                 return tmp_sum == sum     
