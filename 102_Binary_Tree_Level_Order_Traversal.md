@@ -98,7 +98,7 @@ class Solution:
             dfs(node.left, level+1, res)
             dfs(node.right, level+1, res)
 
-        res = []
+        res = [] 
         dfs(root, 1, res)
         return res
 ```
