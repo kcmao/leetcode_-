@@ -41,6 +41,7 @@ def quick_sort1(array, left, right):
 
 # 3
 用Python写一个C风格的快排(这里可以体会到快排的精髓)
+
 ```python
 # 最上层的封装
 def quick_sort2(L):
@@ -58,14 +59,15 @@ def q_sort(L, left, right):
 
 # 分割程序，返回的
 ```
+
+
 这个函数的核心是pivot = Partition(L, left, right)，
 在执行它之前，列表的值为[5, 9, 1, 11, 6, 7, 2, 4]，而Partition函数做的事情是找到一个分组标准，然后进行分组，让它左边的值比它小，右边的值比它大。
 在经过Partition函数分组后，列表变为[4, 2, 1, 5, 6, 7, 11, 9]，
 并把5的下标值(也就是3)返回给pivot，此时列表变成两个小列表[4, 2, 1]和[5, 6, 7, 11, 9] ，
  之后调用q_sort，就是调用q_sort(L,0, 2)和q_sort(L, 4 ,7)，对其进行Partition操作，直到整个列表有序为止
 
-```
-
+```python
 def Partition(L, left, right):
     pivotkey = L[left]
     while left < right:
