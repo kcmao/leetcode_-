@@ -35,7 +35,7 @@ def quick_sort1(array, left, right):
             left += 1
         array[right] = array[left]
     array[right] = key
-    quick_sort(array, low, left - 1)
+    quick_sort1(array1, low, left - 1)
 
 ```
 

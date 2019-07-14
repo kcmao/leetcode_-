@@ -1,0 +1,6 @@
+﻿  06_PrintListInReversedOrder.cpp
+06_PrintListInReversedOrder.obj : error LNK2019: 无法解析的外部符号 "struct ListNode * __cdecl CreateListNode(int)" (?CreateListNode@@YAPEAUListNode@@H@Z)，该符号在函数 "void __cdecl Test1(void)" (?Test1@@YAXXZ) 中被引用
+06_PrintListInReversedOrder.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ConnectListNodes(struct ListNode *,struct ListNode *)" (?ConnectListNodes@@YAXPEAUListNode@@0@Z)，该符号在函数 "void __cdecl Test1(void)" (?Test1@@YAXXZ) 中被引用
+06_PrintListInReversedOrder.obj : error LNK2019: 无法解析的外部符号 "void __cdecl PrintList(struct ListNode *)" (?PrintList@@YAXPEAUListNode@@@Z)，该符号在函数 "void __cdecl Test(struct ListNode *)" (?Test@@YAXPEAUListNode@@@Z) 中被引用
+06_PrintListInReversedOrder.obj : error LNK2019: 无法解析的外部符号 "void __cdecl DestroyList(struct ListNode *)" (?DestroyList@@YAXPEAUListNode@@@Z)，该符号在函数 "void __cdecl Test1(void)" (?Test1@@YAXXZ) 中被引用
+D:\mkc\Learning\coding_exercise\leetcode_exercise\c_coding_exercise\c_coding_exercise\x64\Debug\06_从尾到头打印链表.exe : fatal error LNK1120: 4 个无法解析的外部命令

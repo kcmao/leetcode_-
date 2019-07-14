@@ -13,7 +13,7 @@ class Solution:
         if not array or not array[0]:
             return False
             
-        #从右上角开始找，两种情况，同时要注意要判断下表是否越界        
+        #从右上角开始找，两种情况，同时要注意要判断下标是否越界        
         while True:
             if target > array[i][j]:
                 i += 1
