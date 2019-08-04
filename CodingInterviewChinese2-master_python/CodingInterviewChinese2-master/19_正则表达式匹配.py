@@ -28,5 +28,7 @@ def match_core(string, pattern):
     return False
 
 
+
+
 if __name__ == "__main__":
     print(match("aaaefwe", "aa*"))

@@ -27,7 +27,7 @@ def reConstructBinaryTree(pre,tin):
     node.left = reConstructBinaryTree(pre1, tin1)
     node.right = reConstructBinaryTree(pre2,tin2)
 
-    #精髓在这边，没想起来
+    #精髓在这边，没想起来,要时常回顾
     return node
 
 

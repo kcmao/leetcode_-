@@ -1,0 +1,3 @@
+﻿  03_duplicate.cpp
+d:\mkc\learning\coding_exercise\leetcode_exercise\c_coding_exercise\c_coding_exercise\03_duplicate\03_duplicate.cpp(135): warning C4326: “main”的返回类型应为“int”而非“void”
+  03_duplicate.vcxproj -> D:\mkc\Learning\coding_exercise\leetcode_exercise\c_coding_exercise\c_coding_exercise\x64\Debug\03_duplicate.exe

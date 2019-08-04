@@ -1,0 +1,3 @@
+﻿  017_Print1ToMaxOfNdigits.cpp
+d:\mkc\learning\coding_exercise\leetcode_exercise\c_coding_exercise\c_coding_exercise\017_数值的整数次方\017_print1tomaxofndigits.cpp(9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  017_数值的整数次方.vcxproj -> D:\mkc\Learning\coding_exercise\leetcode_exercise\c_coding_exercise\c_coding_exercise\x64\Debug\017_数值的整数次方.exe

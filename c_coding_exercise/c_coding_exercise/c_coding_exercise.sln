@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utilities", "Utilities\Util
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_重建二叉树", "07_重建二叉树\07_重建二叉树.vcxproj", "{A198A490-294E-4464-BCE7-1D2EEEE356AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "017_数值的整数次方", "017_数值的整数次方\017_数值的整数次方.vcxproj", "{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22_链表中倒数第k个节点", "22_链表中倒数第k个节点\22_链表中倒数第k个节点.vcxproj", "{1104B58D-5413-4FEA-9229-666424895B27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +75,22 @@ Global
 		{A198A490-294E-4464-BCE7-1D2EEEE356AD}.Release|x64.Build.0 = Release|x64
 		{A198A490-294E-4464-BCE7-1D2EEEE356AD}.Release|x86.ActiveCfg = Release|Win32
 		{A198A490-294E-4464-BCE7-1D2EEEE356AD}.Release|x86.Build.0 = Release|Win32
+		{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}.Debug|x64.ActiveCfg = Debug|x64
+		{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}.Debug|x64.Build.0 = Debug|x64
+		{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}.Debug|x86.Build.0 = Debug|Win32
+		{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}.Release|x64.ActiveCfg = Release|x64
+		{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}.Release|x64.Build.0 = Release|x64
+		{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}.Release|x86.ActiveCfg = Release|Win32
+		{876EF40D-046C-4B3A-A1E5-480FC69EF7E8}.Release|x86.Build.0 = Release|Win32
+		{1104B58D-5413-4FEA-9229-666424895B27}.Debug|x64.ActiveCfg = Debug|x64
+		{1104B58D-5413-4FEA-9229-666424895B27}.Debug|x64.Build.0 = Debug|x64
+		{1104B58D-5413-4FEA-9229-666424895B27}.Debug|x86.ActiveCfg = Debug|Win32
+		{1104B58D-5413-4FEA-9229-666424895B27}.Debug|x86.Build.0 = Debug|Win32
+		{1104B58D-5413-4FEA-9229-666424895B27}.Release|x64.ActiveCfg = Release|x64
+		{1104B58D-5413-4FEA-9229-666424895B27}.Release|x64.Build.0 = Release|x64
+		{1104B58D-5413-4FEA-9229-666424895B27}.Release|x86.ActiveCfg = Release|Win32
+		{1104B58D-5413-4FEA-9229-666424895B27}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
